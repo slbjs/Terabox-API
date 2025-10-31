@@ -43,18 +43,24 @@ logger = logging.getLogger(__name__)
 
 # TESTED COOKIES (Updated 2024-06-23)
 COOKIES = {
-    'ndut_fmt': '082E0D57C65BDC31F6FF293F5D23164958B85D6952CCB6ED5D8A3870CB302BE7',
-    'ndus': 'Y-wWXKyteHuigAhC03Fr4bbee-QguZ4JC6UAdqap',
-    '__bid_n': '196ce76f980a5dfe624207',
-    '__stripe_mid': '148f0bd1-59b1-4d4d-8034-6275095fc06f99e0e6',
-    '__stripe_sid': '7b425795-b445-47da-b9db-5f12ec8c67bf085e26',
-    'browserid': 'veWFJBJ9hgVgY0eI9S7yzv66aE28f3als3qUXadSjEuICKF1WWBh4inG3KAWJsAYMkAFpH2FuNUum87q',
-    'csrfToken': 'wlv_WNcWCjBtbNQDrHSnut2h',
-    'lang': 'en',
-    'PANWEB': '1',
-    'ab_sr': '1.0.1_NjA1ZWE3ODRiYjJiYjZkYjQzYjU4NmZkZGVmOWYxNDg4MjU3ZDZmMTg0Nzg4MWFlNzQzZDMxZWExNmNjYzliMGFlYjIyNWUzYzZiODQ1Nzg3NWM0MzIzNWNiYTlkYTRjZTc0ZTc5ODRkNzg4NDhiMTljOGRiY2I4MzY4ZmYyNTU5ZDE5NDczZmY4NjJhMDgyNjRkZDI2MGY5M2Q5YzIyMg=='
+    "__bid_n": "1987a5e4b87f113c2e4207",
+    "_ga": "GA1.1.1582251804.1754399693",
+    "_gcl_au": "1.1.44554807.1754399693",
+    "_fbp": "fb.1.1754399697915.907840173502886787",
+    "__stripe_mid": "a95ed437-5542-43b4-8168-45f8b83837ad9ef0f4",
+    "browserid": "ezZXX5dzVjNYePME2SlZixnpGrWJ-LHUNtqR3lYgmrtuWjlmowgKzglCkRc=",
+    "lang": "en",
+    "csrfToken": "T_x1FbN7VYktTns7bAcs9Uf1",
+    "ab_ymg_result": "{\"data\":\"5f20cb031028dbd1129c2a56175c56c3fe01e47e0dd1445a409ccc8b20e0541eef73de86c3fe3e8f4b0a33a015b906219be3becaa6550eedf5d61dc89c1e64cd7b6d6d02d088fbb9768049d451be501a72b4c78eb0929df6c53a1172cfd2228d48b9010674febc756ae98a9be7f73f7677a9bb49beebf0f63e518ddf7885bcbd\",\"key_id\":\"66\",\"sign\":\"3747672c\"}",
+    "_ga_06ZNKL8C2E": "GS2.1.s1761708980$o11$g1$t1761708996$j44$l0$h0",
+    "ab_sr": "1.0.1_YTJhZDM5NTYzODRkMzI5ZTA3MzdmMTczMjU4MzEzZmQ3OGM3NGIwZWI5OTUyYWNhOTMwMjUwY2M4ZmE0NTczODNiMGVlMTliM2YwNWMxNzc1MmY4NTJlNzFiODA0NWFmZTM4NzMxZGZmNzg1NmI0ODgyNDA3YmQ0OGU3ZTQ2NGNhYThhNzZhZWFlYWE5MmNhZmMwNWJmZTVkNTM3MWEwYw==",
+    "__stripe_sid": "735017ee-c6b5-4d60-b50d-8459c218b93308a211",
+    "ndus": "Y-r7xiEteHuiYrqJ6tpGFQUVwCewTlCTriXbB3qU",
+    "_ga_HSVH9T016H": "GS2.1.s1761709041$o11$g0$t1761709041$j60$l0$h0",
+    "_rdt_uuid": "1754915740517.70d79c3a-f35a-4733-92d1-b6c196544886",
+    "ndut_fmt": "AC953B73436AF3878CE67CAB6B9C426077B2B5DD9F7169B114406086AEB9998B",
+    "g_state": "{\"i_l\":0,\"i_ll\":1761709044069,\"i_b\":\"/YnBDF/JnFDtrzrtlzBji8tUVHjRO1UAJjTdQmviT7Y\"}"
 }
-
 # FIXED HEADERS AS REQUESTED
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0',
